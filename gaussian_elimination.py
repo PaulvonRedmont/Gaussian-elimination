@@ -33,9 +33,10 @@ def gaussian_elimination(A, b):
     print(f"Solution:\n{x}\n")
     return x
 
-# Define your matrix A using np.array()
+# matrix goes here
 A = np.array([[2, 1, -1],[-3, -1, 2],[-2, 1, 2]], dtype='float')
-# Define your solution vector b using np.array()
+# solution vector goes here
 b = np.array([8, -11, -3], dtype='float')
 
 gaussian_elimination(A.tolist(), b.tolist())
+# idk, its supposed to show its steps, but honestly who cares.
